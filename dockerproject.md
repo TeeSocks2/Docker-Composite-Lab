@@ -80,9 +80,12 @@ If the page loads correctly, click the advanced optiob, scroll down, and click a
 
 You should make it to a login page. Once you do, enter "admin" for both the username and the password.
 
+What the page looks like:
+[!GreenBone](https://github.com/TeeSocks2/Docker-Composite-Lab/issues/1#issue-2030586097)
+
 ### Part 2.3 (Making a Target)
 
-When you make it to the Greenbone page, click on "Configuration" and then click on "Targets." When you make it to the "Targets" page, click on the little star icon and create a new target.S
+When you make it to the Greenbone page, click on "Configuration" and then click on "Targets." When you make it to the "Targets" page, click on the little star icon and create a new target.
 
 From here, specify the name of the target and (this is the most important part) specify the ip address of said target.
 
@@ -94,7 +97,13 @@ After you have made a target, go to the "Scans" dropdown and click on "Tasks." A
 
 After you have created your task, press the little play button near the bottom right of the screen to start the task. From here, keep refreshing the page until the task until it is finished.
 
+What the task looks like:
+[!Tasks](https://github.com/TeeSocks2/Docker-Composite-Lab/issues/2#issue-2030587596)
+
 If you want to see the result of your task, go to the "Scans" dropdown and click on "Reports." From there you should be able to look at all the tasks you've run and see things related to the task you've run, such as its status and its severity.
+
+What the report should look like:
+[!Report](https://github.com/TeeSocks2/Docker-Composite-Lab/issues/3#issue-2030588838)
 
 Congratulations, you have successfully installed OpenVAS with Docker on an Ubuntu VM!!!
 
